@@ -1,0 +1,227 @@
+html{ 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+body{
+    background-color: #FFEBC1;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    
+    left:0;
+    right:0;
+    display: flex;
+    flex-direction: column; 
+    min-height: 90%;
+}
+
+.heading{
+    height:140px;
+    padding-bottom: 0%;
+}
+
+.title{
+    position: relative;
+    font-size: 3rem;
+    transform: translate(3%,-150%);
+    text-align: center;
+    color: #8E3200;
+    
+}
+
+#logo
+{
+    position: relative;
+    height: 100px;
+    left: 33%;
+    transform: translateY(20%);
+}
+
+.menu{
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:left;
+}
+
+.menuitem{
+    padding: 10px 10px;
+    color:#8E3200;
+   
+}
+
+.banner{
+    padding:0;
+    height: 350px;
+    width: 100%;
+    margin-top:0%;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.bannertitle{
+    color:white;
+    position: absolute;
+    left:70%;
+    top:30%;
+    font-size: 1.5rem;
+}
+
+hr{    
+    background-color: #8E3200;
+    border-width: 1px;
+    border-color: #8E3200;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top:auto;
+    padding-top:20px;
+  }
+
+  .menutitle{
+      position: relative;
+      text-align: center;
+      color:#8E3200;
+      font-size: 2rem;      
+      
+  }
+
+  .menuheading
+  {
+      border-style: solid;
+      border-width: 2px;
+    border-color: #8E3200;
+  }
+
+  .price h2{
+      position:relative;
+      transform: translate(10%,0%);
+      color: #8E3200;
+  }
+
+  .price table{
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+    
+      padding:5px;
+      text-align: left;
+  }
+
+  .price tr{
+      height:40px;
+  }
+
+  .price td{
+      padding-left:10px;
+      
+  }
+
+  .price th{
+      color: #8E3200;
+      border-style: solid;
+      padding-left: 7px;
+      border-color: #8E3200;
+      border-top: 0;
+      border-bottom: 0;
+      border-right: 0;
+  }
+
+  #suggestion{
+      text-align: right;
+      position: relative;
+      transform:translate(-5%,5%);
+  }
+
+  .choice{
+      padding: 5px 5px;
+      margin-top:10px;
+      margin-bottom: 10px;
+  }
+
+  .choice > h2{
+      text-align: center;
+      color:#8E3200;
+  }
+
+ .choice > input{
+     padding: 10px 10px;
+     margin: 10px;
+ }
+
+ .order
+ {
+     position: absolute;
+     left: 47%;
+     top:50%;
+     height:50px;
+     width:100px;
+     background-color: #A64B2A;
+     border-radius: 25px;
+     border: none;
+     color:white;
+     font-size: 1.25rem;
+     cursor:pointer;
+ }
+
+ .menuorder{
+    position: relative;
+    left: 47%;
+    top:50%;
+    height:50px;
+    width:100px;
+    background-color: #A64B2A;
+    border-radius: 25px;
+    border: none;
+    color:white;
+    font-size: 1.25rem;
+    cursor:pointer;
+ }
+
+ .result
+ {
+     position: absolute;
+     left:34%;
+     top:30%;
+ }
+
+ #suggestion{
+     position:absolute;
+     top:80%;
+     left:80%;
+ }
+
+ .radio{
+     text-align: center;
+     padding: 10px 15px;
+ }
+
+ .radio > input{
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+
+ #submit
+ {
+    position: relative;
+    left: 47%;
+    top:90%;
+    height:50px;
+    width:100px;
+    background-color: #A64B2A;
+    border-radius: 25px;
+    border: none;
+    color:white;
+    font-size: 1.25rem;
+    cursor: pointer;
+ }
+  

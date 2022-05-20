@@ -1,0 +1,39 @@
+<%-include ("partials/header") -%>
+<h2>Confused what to drink today? Try our Drink Recommender.</h2>
+<form action="/result" method="post">
+<div class="choice">
+    <h2>Type</h2>
+    <div class="radio">
+    <input type="radio" name="type" value="iceddrink" id="iceddrink">Iced Drink 
+    <input type="radio" name="type" value="hotdrink" id="hotdrink">Hot Drink
+</div> 
+</div>
+<div class="choice">
+    <h2>Strongness</h2>
+    <div class="radio">
+    <input type="radio" name="strongness" value="less" id="less">Less 
+    <input type="radio" name="strongness" value="medium" id="medium">Medium
+    <input type="radio" name="strongness" value="extra" id="extra">Extra
+</div>
+<div class="choice">
+    <h2>Sweetness</h2>
+    <div class="radio">
+    <input type="radio" name="sweetness" value="lesssweet" id="lesssweet">Less Sweet
+    <input type="radio" name="sweetness" value="regular" id="regular">Regular
+    <input type="radio" name="sweetness" value="toosweet" id="toosweet">Too Sweet
+</div>
+
+<div class="choice">
+    <h2>Flavor</h2>
+    <div class="radio">
+    <input type="radio" name="flavor" value="chocolate" id="chocolate">Chocolate
+    <input type="radio" name="flavor" value="vanilla" id="vanilla">Vanilla
+    <input type="radio" name="flavor" value="caramel" id="caramel">Caramel
+    <input type="radio" name="flavor" value="strawberry" id="strawberry">Strawberry
+    <input type="radio" name="flavor" value="saltedcaramel" id="saltedcaramel">Salted Caramel
+</div>
+<input type="submit" id="submit">
+</form>
+
+
+<%-include("partials/footer") -%>
